@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+/* font: normal 16px "Roboto", sans-serif; Возможность записывать в одну строку */
+
+.conteiner {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.headinfo {
+  font-size: 20px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .headinfo {
+    text-align: center;
+  }
+}
+
+.headinfo-text {
+  margin-left: 40px;
+}
+
+.headinfo p {
+  font-style: italic;
+  color: rgb(65, 63, 61);
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.avatar {
+  /* margin: 5px auto 20px;
+  display: block; */
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(148, 145, 145);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* @media (max-width: 520px) {
+  .kontakt {
+    display: block;
+  }
+} */
+
+.card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.kontakt h4 {
+  font-size: 20px;
+}
+.kontakt {
+  margin: 0;
+  background-color: aliceblue;
+  margin-bottom: 15px;
+  padding: 10px 10px 30px 10px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.bg-oben {
+  background-color: #e0ffff;
+}
+.bg-unten {
+  background-color: #fff0f5;
+}
+
+.list li {
+  color: rgb(80, 80, 80);
+  font-style: italic;
+}
+
+/* .list li:nth-child(1) {
+  color: black;
+} */
+
+.rückkontakt label {
+  display: block;
+  font-style: oblique;
+  padding-bottom: 5px;
+}
+.rückkontakt input {
+  display: block;
+  border: none;
+  height: 25px;
+
+  outline: none;
+}
+
+.rückkontakt-1 label {
+  display: block;
+  font-style: oblique;
+  padding: 15px;
+}
+
+.rückkontakt-1 textarea {
+  display: block;
+  font-style: oblique;
+  width: 300px;
+}
+.rückkontakt-1 input {
+  display: block;
+  font-style: oblique;
+  padding: 0;
+  outline: none;
+}
+
+.rückkontakt-1 label {
+  padding-bottom: 0;
+  padding-top: 25px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(65, 65, 65);
+  border: none;
+  color: azure;
+  border-radius: 10px;
+}
+.btn-2 {
+  background-color: rgb(65, 65, 65);
+  color: azure;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
